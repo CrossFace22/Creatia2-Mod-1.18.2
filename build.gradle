@@ -188,6 +188,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     implementation fg.deobf("com.simibubi.create:Create:mc1.18.2_v${create_version}")
     implementation fg.deobf("com.jozufozu.flywheel:Flywheel-Forge:1.18-${flywheel_version}")
+    implementation fg.deobf("curse.maven:farmersdelight-398521:3834150")
+    implementation fg.deobf("curse.maven:farmersrespite-551453:3859156")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
