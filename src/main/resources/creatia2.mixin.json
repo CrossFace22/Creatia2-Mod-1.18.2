@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.losvagos.creatia2.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "KettleContainerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "creatia2.mixin-refmap.json"
+}

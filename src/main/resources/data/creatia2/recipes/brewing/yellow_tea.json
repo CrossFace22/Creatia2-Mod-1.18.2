@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    },
+    {
+      "item": "farmersrespite:yellow_tea_leaves"
+    }
+  ],
+  "result": {
+    "item": "creatia2:yellow_tea_cup"
+  },
+  "experience": 0.35,
+  "brewingtime": 100,
+  "needwater": true
+}
