@@ -2,6 +2,7 @@ package net.losvagos.creatia2;
 
 import com.mojang.logging.LogUtils;
 import net.losvagos.creatia2.item.CreatiaItems;
+import net.losvagos.creatia2.villager.CreatiaVillagers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class Creatia2
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CreatiaItems.register(eventBus);
+        CreatiaVillagers.register(eventBus);
         eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in
@@ -34,5 +36,7 @@ public class Creatia2
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+
+        CreatiaVillagers.RegisterPOIs();
     }
 }

@@ -27,5 +27,6 @@
   "farmersdelight.tooltip.rose_hip_tea_cup": "Minor Instant Health",
   "farmersdelight.tooltip.strong_rose_hip_tea_cup": "Semi-Minor Instant Health",
   "farmersdelight.tooltip.chocolate_cup": "Hot chocolate in a cup",
-  "itemGroup.creatia2": "Creatia 2"
+  "itemGroup.creatia2": "Creatia 2",
+  "entity.minecraft.villager.creatia2.steampunker": "Steampunker"
 }

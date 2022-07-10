@@ -16,10 +16,10 @@ public class CreatiaItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Creatia2.MOD_ID);
 
     public static final RegistryObject<Item> CLAY_CUP = ITEMS.register("clay_cup",
-            () -> new Item(new Item.Properties().tab(CreatiaTab.CREATIA_TAB).stacksTo(1)));
+            () -> new Item(new Item.Properties().tab(CreatiaTab.CREATIA_TAB).stacksTo(16)));
 
     public static final RegistryObject<Item> HARDENED_CLAY_CUP = ITEMS.register("hardened_clay_cup",
-            () -> new Item(new Item.Properties().tab(CreatiaTab.CREATIA_TAB).stacksTo(1)));
+            () -> new Item(new Item.Properties().tab(CreatiaTab.CREATIA_TAB).stacksTo(16)));
 
     //region <[Drinkable Cup Items]>
     public static final RegistryObject<Item> CHOCOLATE_CUP = ITEMS.register("chocolate_cup",
