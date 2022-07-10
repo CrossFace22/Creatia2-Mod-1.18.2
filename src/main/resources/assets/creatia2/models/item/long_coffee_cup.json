@@ -287,6 +287,10 @@
 		"head": {
 			"translation": [0, 11.75, 0],
 			"scale": [0.69, 0.69, 0.69]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 3, 0]
 		}
 	},
 	"groups": [

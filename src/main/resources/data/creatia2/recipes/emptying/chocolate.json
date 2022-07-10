@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "creatia2:chocolate_cup"
+    }
+  ],
+  "results": [
+    {
+      "item": "creatia2:hardened_clay_cup"
+    },
+    {
+      "fluid": "create:chocolate",
+      "amount": 250
+    }
+  ]
+}

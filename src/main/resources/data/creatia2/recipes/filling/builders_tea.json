@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "creatia2:hardened_clay_cup"
+    },
+    {
+      "fluid": "create:tea",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "creatia2:builders_tea_cup"
+    }
+  ]
+}

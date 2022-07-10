@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "creatia2:builders_tea_cup"
+    }
+  ],
+  "results": [
+    {
+      "item": "creatia2:hardened_clay_cup"
+    },
+    {
+      "fluid": "create:tea",
+      "amount": 250
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "farmersrespite:coffee_beans"
+    },
+    {
+      "item": "farmersrespite:coffee_beans"
+    }
+  ],
+  "result": {
+    "item": "creatia2:coffee_cup"
+  },
+  "experience": 0.35,
+  "brewingtime": 100,
+  "needwater": true
+}

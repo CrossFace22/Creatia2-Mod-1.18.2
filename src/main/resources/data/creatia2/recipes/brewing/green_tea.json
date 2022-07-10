@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "farmersrespite:green_tea_leaves"
+    },
+    {
+      "item": "farmersrespite:green_tea_leaves"
+    }
+  ],
+  "result": {
+    "item": "creatia2:green_tea_cup"
+  },
+  "experience": 0.35,
+  "brewingtime": 600,
+  "needwater": true
+}

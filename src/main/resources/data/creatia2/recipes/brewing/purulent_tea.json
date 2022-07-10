@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "result": {
+    "item": "creatia2:purulent_tea_cup"
+  },
+  "experience": 0.35,
+  "brewingtime": 600,
+  "needwater": true
+}

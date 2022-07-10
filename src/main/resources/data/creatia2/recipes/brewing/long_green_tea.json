@@ -1,0 +1,20 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "creatia2:green_tea_cup"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "creatia2:long_green_tea_cup"
+  },
+  "container": {
+    "item": "creatia2:hardened_clay_cup"
+  },
+  "experience": 0.35,
+  "brewingtime": 100,
+  "needwater": false
+}
