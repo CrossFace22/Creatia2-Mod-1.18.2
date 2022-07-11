@@ -3,6 +3,10 @@ package net.losvagos.creatia2;
 import com.mojang.logging.LogUtils;
 import net.losvagos.creatia2.item.CreatiaItems;
 import net.losvagos.creatia2.villager.CreatiaVillagers;
+import net.mcreator.createstuffaddons.init.CreateStuffAdditionsModItems;
+import net.mcreator.createstuffaddons.item.ExperienceAxeItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,7 +21,7 @@ public class Creatia2
 {
     public static final String MOD_ID = "creatia2";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Creatia2()
     {
