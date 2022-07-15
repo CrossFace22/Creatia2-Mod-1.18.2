@@ -191,7 +191,9 @@ dependencies {
     implementation fg.deobf("com.jozufozu.flywheel:Flywheel-Forge:1.18-${flywheel_version}")
     implementation fg.deobf("curse.maven:farmersdelight-398521:3834150")
     implementation fg.deobf("curse.maven:farmersrespite-551453:3859156")
-    implementation fg.deobf("curse.maven:createstuffadditions-466792:3864758")
+    implementation fg.deobf("curse.maven:createstuffadditions-466792:3875561")
+    implementation fg.deobf("curse.maven:createdeco-509285:3866123")
+    implementation fg.deobf("curse.maven:buildersdelight-563734:3857874")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
