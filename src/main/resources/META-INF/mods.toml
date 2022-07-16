@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 [[dependencies.creatia2]]
     modId="create"
     mandatory=true
-    versionRange="[mc1.18.2_v0.5.0,)"
+    versionRange="[mc1.18.2_v0.5.0c,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.creatia2]]
@@ -74,6 +74,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
     modId="farmersdelight"
     mandatory=true
     versionRange="[1.1.2-1.18.2,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.creatia2]]
+    modId="createdeco"
+    mandatory=true
+    versionRange="[1.2.8-1.18.2,)"
     ordering="AFTER"
     side="BOTH"
 # Here's another dependency
