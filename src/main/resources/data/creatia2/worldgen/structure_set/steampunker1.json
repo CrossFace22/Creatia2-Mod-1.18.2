@@ -1,0 +1,22 @@
+{
+
+  "structures": [
+    {
+      "structure": "creatia2:steampunker1",
+      "weight": 1
+    },
+    {
+      "structure": "creatia2:steampunker2",
+      "weight": 2
+    }
+  ],
+  "placement": {
+
+    "salt": 5244136174,
+
+    "spacing": 30,
+    "separation": 6,
+
+    "type": "minecraft:random_spread"
+  }
+}

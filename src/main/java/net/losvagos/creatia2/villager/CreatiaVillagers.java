@@ -25,7 +25,7 @@ public class CreatiaVillagers {
             DeferredRegister.create(ForgeRegistries.PROFESSIONS, Creatia2.MOD_ID);
 
     public static final RegistryObject<PoiType> STEAMPUNKER_POI = POI_TYPES.register("steampunker_poi",
-            () -> new PoiType("steampunker_poi", PoiType.getBlockStates(AllBlocks.MILLSTONE.get()), 1, 1));
+            () -> new PoiType("steampunker_poi", PoiType.getBlockStates(AllBlocks.MILLSTONE.get()), 0, 1));
 
     public static final RegistryObject<VillagerProfession> STEAMPUNKER = VILLAGER_PROFESSIONS.register("steampunker"
     , () -> new VillagerProfession("steampunker", STEAMPUNKER_POI.get(), ImmutableSet.of(), ImmutableSet.of(), SoundEvents.VILLAGER_WORK_TOOLSMITH));

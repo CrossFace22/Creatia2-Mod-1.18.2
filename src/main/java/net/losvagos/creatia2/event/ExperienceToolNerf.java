@@ -1,9 +1,6 @@
 package net.losvagos.creatia2.event;
 
-import com.mojang.math.Constants;
 import net.losvagos.creatia2.Creatia2;
-import net.mcreator.createstuffaddons.CreateStuffAdditionsMod;
-import net.mcreator.createstuffaddons.init.CreateStuffAdditionsModItems;
 import net.mcreator.createstuffaddons.item.ExperienceAxeItem;
 import net.mcreator.createstuffaddons.item.ExperiencePickaxeItem;
 import net.mcreator.createstuffaddons.item.ExperienceShovelItem;
@@ -14,7 +11,6 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.AnvilUpdateEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

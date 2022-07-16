@@ -3,6 +3,8 @@ package net.losvagos.creatia2;
 import com.mojang.logging.LogUtils;
 import net.losvagos.creatia2.item.CreatiaItems;
 import net.losvagos.creatia2.villager.CreatiaVillagers;
+import net.minecraft.advancements.critereon.LootTableTrigger;
+import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

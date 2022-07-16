@@ -166,6 +166,7 @@ repositories {
         name "tterrag maven"
         url "https://maven.tterrag.com/"
     }
+
     mavenLocal()
     mavenCentral()
 }
@@ -192,7 +193,6 @@ dependencies {
     implementation fg.deobf("curse.maven:farmersdelight-398521:3834150")
     implementation fg.deobf("curse.maven:farmersrespite-551453:3859156")
     implementation fg.deobf("curse.maven:createstuffadditions-466792:3864758")
-
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 

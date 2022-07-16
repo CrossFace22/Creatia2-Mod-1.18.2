@@ -1,0 +1,22 @@
+{
+
+  "type": "minecraft:village",
+
+  "config": {
+
+    "start_pool": "creatia2:steampunker2/start_pool",
+
+
+    "size": 2
+  },
+
+
+  "biomes": "#creatia2:has_structure/steampunker2",
+
+
+  "adapt_noise": true,
+
+  "spawn_overrides": {
+
+  }
+}
