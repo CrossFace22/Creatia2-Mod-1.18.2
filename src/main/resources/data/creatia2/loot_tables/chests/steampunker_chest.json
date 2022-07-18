@@ -219,11 +219,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "create:goggles"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "create:minecart_coupling",
           "functions": [
             {

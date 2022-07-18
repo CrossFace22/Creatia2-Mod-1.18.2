@@ -76,12 +76,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
     versionRange="[1.1.2-1.18.2,)"
     ordering="AFTER"
     side="BOTH"
-[[dependencies.creatia2]]
-    modId="createdeco"
-    mandatory=true
-    versionRange="[1.2.8-1.18.2,)"
-    ordering="AFTER"
-    side="BOTH"
 # Here's another dependency
 [[dependencies.creatia2]]
     modId="minecraft"

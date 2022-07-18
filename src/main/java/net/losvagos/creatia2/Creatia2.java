@@ -3,8 +3,6 @@ package net.losvagos.creatia2;
 import com.mojang.logging.LogUtils;
 import net.losvagos.creatia2.item.CreatiaItems;
 import net.losvagos.creatia2.villager.CreatiaVillagers;
-import net.minecraft.advancements.critereon.LootTableTrigger;
-import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,7 +18,6 @@ public class Creatia2
     public static final String MOD_ID = "creatia2";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
-
     public Creatia2()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
