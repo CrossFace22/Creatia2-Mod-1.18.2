@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "creatia2:item/purulent_tea_cup" },
+    "facing=east": { "model": "creatia2:item/purulent_tea_cup", "y": 90 },
+    "facing=south": { "model": "creatia2:item/purulent_tea_cup", "y": 180 },
+    "facing=west": { "model": "creatia2:item/purulent_tea_cup", "y": 270 }
+  }
+}

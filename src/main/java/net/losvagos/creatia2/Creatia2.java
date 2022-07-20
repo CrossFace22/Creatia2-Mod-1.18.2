@@ -1,6 +1,7 @@
 package net.losvagos.creatia2;
 
 import com.mojang.logging.LogUtils;
+import net.losvagos.creatia2.block.CreatiaBlocks;
 import net.losvagos.creatia2.item.CreatiaItems;
 import net.losvagos.creatia2.villager.CreatiaVillagers;
 import net.minecraft.world.level.block.Blocks;
@@ -23,6 +24,7 @@ public class Creatia2
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CreatiaItems.register(eventBus);
+        CreatiaBlocks.register(eventBus);
         CreatiaVillagers.register(eventBus);
         eventBus.addListener(this::setup);
 

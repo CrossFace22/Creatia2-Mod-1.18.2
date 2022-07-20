@@ -381,8 +381,8 @@
 			"scale": [0.69, 0.69, 0.69]
 		},
 		"fixed": {
-			"rotation": [0, 0, 0],
-			"translation": [0, 3, 0]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -8]
 		}
 	},
 	"groups": [
